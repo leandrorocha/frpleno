@@ -10,24 +10,20 @@ export const BuscaCep = () => {
         setBusca(event.target.value);
     }
 
-    
-
     const handleSubmit = async (event: React.FormEvent) => {
         event.preventDefault();
 
         try {
             const response = await axios.get(`http://viacep.com.br/ws/${busca}/json/`);
-
             setResult(response.data)
-            console.log(response.data)
         } catch (error) {
             console.error('Error fetching data:', error);
         }
     };
 
     return (
-        <div>
-            <h1>Busca de endereços por CEP</h1>
+        <div className="form-busca-cep">
+            <h2>1. Busca de endereços por CEP</h2>
 
             <form onSubmit={handleSubmit} className="formulario">
                 <input

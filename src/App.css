@@ -12,3 +12,11 @@
   font-size: 16px;
   color: white;
 }
+
+.linha {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin: 24px 0
+
+}

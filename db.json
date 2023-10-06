@@ -1,0 +1,34 @@
+{
+  "contas": [
+    {
+      "id": 1,
+      "nome": "Item 1",
+      "descricao": "algo"
+    },
+    {
+      "id": 2,
+      "nome": "Item 2",
+      "descricao": "teste"
+    },
+    {
+      "nome": "Leandro",
+      "descricao": "Dev",
+      "id": 3
+    },
+    {
+      "nome": "Fulano",
+      "descricao": "Teste",
+      "id": 5
+    },
+    {
+      "nome": "Teste",
+      "descricao": "qeqweqwe",
+      "id": 6
+    },
+    {
+      "nome": "dasdasd",
+      "descricao": "asdasdas",
+      "id": 7
+    }
+  ]
+}
